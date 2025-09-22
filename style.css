@@ -12,12 +12,12 @@ body{
 
 header{
     padding: 1px;
-    border-bottom: 1px solid #F4F0FA;
+    border-bottom: 1px solid black;
     background-color: #483D8B;
 }
 
 .container{
-    width: 90%;
+    width: 95%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px 0;
@@ -50,7 +50,7 @@ header .logo img{
 
 header h1{
     font-size: 1.5rem;
-    color: white;
+    color: aliceblue;
 }
 
 header nav ul{
@@ -61,15 +61,14 @@ header nav ul{
 
 header nav a:hover{
     background-color: #6A5ACD;
-    color: red
+    color: black;
 }
 
 header nav a{
     text-decoration: none;
-    color: #0f0f0f;
-    background-color: #6A5ACD;
-    border-radius: 10px;
-    padding: 2px 5px;
+    color:aliceblue;
+    border-radius: 5px;
+    padding: 2px
 
 }
 
@@ -81,4 +80,32 @@ header nav a{
             font-size: 2rem;
         }
     
+}
+
+/*apresentação do portal*/
+
+main{
+    padding: 10px
+}
+
+h2{
+    padding: 10px;
+    text-align: center;
+}
+
+#apresentacao figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#apresentacao figure img{
+    align-content: center;
+    border-radius: 200px;
+    width: 50rem;
+}
+
+figcaption{
+    text-align: center;
+    padding: 5px;
 }

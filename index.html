@@ -144,6 +144,54 @@
             </div>
         </section>
 
+        <!--formulário de interesse-->
+
+        <section id="form" class="container">
+
+            <h2>Formulário de Interesse</h2>
+            <form class="form" action="https://formsubmit.co/lhmarques335@gmail.com" method="post">
+
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label class="mail" for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label class="curso" for="curso">Cursos:</label>
+                <select id="curso" name="curso" required>
+                <option value="">Selecione</option>
+                <option value="LH">Licenciatura em História</option>
+                <option value="EC">Engenharia Civil</option>
+                <option value="BC">Bacharelado em Ciências Biológicas</option>
+                <option value="ES">Engenharia de Software</option>
+                <option value="EC">Licenciatura em Inglês</option>
+                <option value="EC">Bacharelado em Ciências da Computação</option>
+                </select>
+            
+                <label class="tipo" for="tipo oportunidade">Tipos de Oportunidade:</label>
+                <div class="group-checkbox">
+                <label><input type="checkbox" id="BE" name="BE" required> Bolsa de Estudo</label>
+                <label><input type="checkbox" id="II" name="II" required> Intercâmbio Internacional</label>
+                <label><input type="checkbox" id="PEI" name="PEI" required> Pesquisa e Iniciação Científica</label>
+                <label><input type="checkbox" id="ECE" name="ECE" required> Estágios e Convênios com Empresas</label>
+                <label><input type="checkbox" id="EU" name="EU" required> Extensão Universitária</label>
+                <label><input type="checkbox" id="MA" name="MA" required> Monitoria Acadêmica</label>
+                <label><input type="checkbox" id="AE" name="AE" required> Atividades Extracurriculares</label>
+                <label><input type="checkbox" id="PPG" name="PPG" required> Programas de Pós-Graduação</label>
+                </div>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea type="textarea" id="mensagem" name="mensagem" placeholder="Escreva aqui sua mensagem..." required></textarea>
+
+                <div class="botao">
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+                </div>
+
+
+            </form>
+        </section>
+
     </main>
     <footer></footer>
 </body>

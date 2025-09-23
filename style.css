@@ -7,7 +7,7 @@
 body{
     background-color: #F4F0FA;
     color: #0f0f0f;
-    font-family: Arial, sans-serif;
+    font-family: Arial;
 }
 
 header{
@@ -88,9 +88,9 @@ main{
     padding: 10px
 }
 
-h2{
-    padding: 10px;
+#apresentacao h2{
     text-align: center;
+    padding: 20px;
 }
 
 #apresentacao figure{
@@ -108,4 +108,32 @@ h2{
 figcaption{
     text-align: center;
     padding: 5px;
+}
+
+
+/*bolsas*/
+
+#bolsas h2{
+    text-align: center;
+    padding: 20px;
+}
+
+.bolsas{
+    background-color:#d3d3d3;
+    border-radius: 25px;
+    padding: 20PX;
+    width: 200px;
+    margin: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.grid-cent{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-items: center;
 }

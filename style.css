@@ -137,3 +137,31 @@ figcaption{
     margin: 0 auto;
     justify-items: center;
 }
+
+/*intercâmbios e parcerias*/
+
+#inter h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: #d3d3d3;
+    border: 1px solid #faf8f8;
+    border-radius: 100px;
+    padding: 20px;
+    width: 280px;
+    flex-grow: 1;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.card-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-items: center;
+}

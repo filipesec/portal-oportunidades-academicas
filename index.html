@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal UESPI</title>
     <link rel= "stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <!--cabecalho-->
@@ -94,7 +95,7 @@
 
         <!--intercâmbios e parcerias-->
 
-        <section id="inter" class="container">
+        <section id="intercambios" class="container">
             
             <h2>Programas Acadêmicos</h2>
             <div class="card-main">
@@ -160,28 +161,28 @@
                 <label class="curso" for="curso">Cursos:</label>
                 <select id="curso" name="curso" required>
                 <option value="">Selecione</option>
-                <option value="LH">Licenciatura em História</option>
-                <option value="EC">Engenharia Civil</option>
-                <option value="BC">Bacharelado em Ciências Biológicas</option>
-                <option value="ES">Engenharia de Software</option>
-                <option value="EC">Licenciatura em Inglês</option>
-                <option value="EC">Bacharelado em Ciências da Computação</option>
+                <option value="Licenciatura-em-História">Licenciatura em História</option>
+                <option value="Engenharia-Civil">Engenharia Civil</option>
+                <option value="Bacharelado-em-Ciências-Biológicas">Bacharelado em Ciências Biológicas</option>
+                <option value="Engenharia-de-Software">Engenharia de Software</option>
+                <option value="Licenciatura-em-Inglês">Licenciatura em Inglês</option>
+                <option value="Bacharelado-em-Ciências-da-Computação">Bacharelado em Ciências da Computação</option>
                 </select>
             
-                <label class="tipo" for="tipo oportunidade">Tipos de Oportunidade:</label>
-                <div class="group-checkbox">
-                <label><input type="checkbox" id="BE" name="BE" required> Bolsa de Estudo</label>
-                <label><input type="checkbox" id="II" name="II" required> Intercâmbio Internacional</label>
-                <label><input type="checkbox" id="PEI" name="PEI" required> Pesquisa e Iniciação Científica</label>
-                <label><input type="checkbox" id="ECE" name="ECE" required> Estágios e Convênios com Empresas</label>
-                <label><input type="checkbox" id="EU" name="EU" required> Extensão Universitária</label>
-                <label><input type="checkbox" id="MA" name="MA" required> Monitoria Acadêmica</label>
-                <label><input type="checkbox" id="AE" name="AE" required> Atividades Extracurriculares</label>
-                <label><input type="checkbox" id="PPG" name="PPG" required> Programas de Pós-Graduação</label>
+                <label class="tipo" for="tipo-oportunidade">Tipos de Oportunidade:</label>
+                <div id="tipo-oportunidade" class="group-checkbox">
+                <label><input type="checkbox" name="right" value="Bolsa-de-estudo"> Bolsa de Estudo</label>
+                <label><input type="checkbox" name="right" value="Intercâmbio-Internacional"> Intercâmbio Internacional</label>
+                <label><input type="checkbox" name="right" value="Pesquisa-e-Iniciação-Científica"> Pesquisa e Iniciação Científica</label>
+                <label><input type="checkbox" name="right" value="Estágios-e-Convênios-com-Empresas"> Estágios e Convênios com Empresas</label>
+                <label><input type="checkbox" name="right" value="Extensão-Universitária"> Extensão Universitária</label>
+                <label><input type="checkbox" name="right" value="Monitoria-Acadêmica"> Monitoria Acadêmica</label>
+                <label><input type="checkbox" name="right" value="Atividades-Extracurriculares"> Atividades Extracurriculares</label>
+                <label><input type="checkbox" name="right" value= "Programas-de-Pós-Graduação"> Programas de Pós-Graduação</label>
                 </div>
 
                 <label for="mensagem">Mensagem:</label>
-                <textarea type="textarea" id="mensagem" name="mensagem" placeholder="Escreva aqui sua mensagem..." required></textarea>
+                <textarea type="textarea" id="mensagem" name="mensagem" placeholder="Escreva aqui sua mensagem..."></textarea>
 
                 <div class="botao">
                 <button type="submit">Enviar</button>
@@ -193,6 +194,19 @@
         </section>
 
     </main>
-    <footer></footer>
+    <footer id="contato" class="container footer">
+        <div class="icones">
+        <a href="https://www.facebook.com/uespioficial" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.youtube.com/c/UESPIoficial" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://br.linkedin.com/school/universidade-estadual-do-piauí" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.tiktok.com/@uespioficial" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="https://www.tiktok.com/@uespioficial" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>Contato: <a href="https://uespi.br">UESPI</a></p>
+        <p>Rua João Cabral, Nº 2231, Bairro Pirajá,</p>
+        <p>Teresina – PI</p>
+        <p>Telefones: (86) 3213-2547 / 3213 – 7942</p>
+        <p>Copyright &copy; 2025 Luis Henrique de Paiva Marques / Filipe Costa Barbosa</p>
+    </footer>
 </body>
 </html>

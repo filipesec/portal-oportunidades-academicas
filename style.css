@@ -72,7 +72,7 @@ header nav a{
 
 }
 
-@media(min-width: 480px){
+@media(min-width: 768px){
     header .container{
         flex-direction: row;
     }
@@ -119,7 +119,7 @@ figcaption{
 }
 
 .bolsas{
-    background-color:#d3d3d3;
+    background-color: #87CEFA;
     border-radius: 25px;
     padding: 20PX;
     width: 200px;
@@ -149,7 +149,7 @@ figcaption{
     background-color: #d3d3d3;
     border: 1px solid #faf8f8;
     border-radius: 100px;
-    padding: 20px;
+    padding: 30px;
     width: 280px;
     flex-grow: 1;
     margin-bottom: 10px;
@@ -177,9 +177,9 @@ figcaption{
 .form {
     display: grid;
     grid-template-columns: 150px 1fr;
-    gap: 10px 20px;
+    gap: 10px;
     max-width: 800px;
-    margin-left: 0 auto;
+    margin-left: 0;
 }
 
 .form label {
@@ -216,13 +216,30 @@ figcaption{
     grid-column: 2;
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 2px;
     align-items: self-start;
 }
 .group-checkbox label {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 2px;
+}
+
+@media (max-width: 768px) {
+    .form {
+        grid-template-columns: 1fr;
+    }
+
+    .form label {
+        margin-top: 5px;
+    }
+
+    .form textarea,
+    .form select,
+    .form input[type="text"],
+    .form input[type="email"] {
+        width: 100%;
+    }
 }
 
 .footer {
@@ -259,21 +276,4 @@ figcaption{
 .icones a:hover {
     color: #6154bb;
     transform: scale(1.2);
-}
-
-@media (max-width: 600px) {
-    .form {
-        grid-template-columns: 1fr;
-    }
-
-    .form label {
-        margin-top: 10px;
-    }
-
-    .form textarea,
-    .form select,
-    .form input[type="text"],
-    .form input[type="email"] {
-        width: 100%;
-    }
 }
